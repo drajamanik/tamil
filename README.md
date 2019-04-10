@@ -37,4 +37,15 @@ java -cp tamil.jar -Dfile.encoding=UTF-8 org.wotsoc.util.TransliteralConvertor C
 Letters length:10 , Total Length:17
 
 
-3. Tamil N Gram check the TamilNGram.java class for a demo.
+3. Tamil N Gram check the TamilNGram.java class for a demo. [Mulitple grams can be passed as parameter like 2 or 3 or 4..]
+Sample Sentence "வான மழை போலே புது பாடல்கள் கான மழை தூவும் முகில் ஆடல்கள் நிலைக்கும் கானம் இது "
+
+TWO- Gram Results
+[[வான, மழை], [போலே, புது], [பாடல்கள், கான], [மழை, தூவும்], [முகில், ஆடல்கள்], [நிலைக்கும், கானம்], [இது]]
+
+THREE - Gram Results
+[[வான, மழை, போலே], [புது, பாடல்கள், கான], [மழை, தூவும், முகில்], [ஆடல்கள், நிலைக்கும், கானம்], [இது]]
+
+
+
+
